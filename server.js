@@ -56,7 +56,7 @@ transporter.sendMail(mailOptions, (err, data) => {
 })
 
 
-const PORT = process.env.PORT || 80;
+const PORT = process.env.PORT || 443;
 
 app.listen(PORT, '0.0.0.0', (err) => {
     console.log(`Server listening on port ${PORT}`)
